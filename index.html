@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularz HTML5</title>
+</head>
+<body>
+    <form action="https://formspree.io/f/xbjnqedg" method="post">
+        <label for="name" >Imię:</label>
+        <input type="text" id="name" name="name" placeholder="Wpisz swoje imię"><br>
+
+        <label for="surname">Nazwisko:</label>
+        <input type="text" id="surname" name="surname" placeholder="Wpisz swoje nazwisko"><br>
+
+        <label for="mail">Mail:</label>
+        <input type="email" name="mail" id="mail" placeholder="Wpisz swoj email"><br>
+
+        <label for="phone">Telefon:</label>
+        <input type="tel" name="phone" id="phone" placeholder="Wpisz swoj telefon"><br>
+
+        <label for="city">Wybierz miasto:</label>
+        <select name="city" id="city">
+            <option value="Kraków">Kraków</option>
+            <option value="Warszawa">Warszawa</option>
+            <option value="Gdańsk">Gdańsk</option>
+        </select><br>
+
+        <label><input type="radio" name="plec" id="kobieta">Kobieta</label>
+        <label><input type="radio" name="plec" id="mezczyzna">Mężczyzna</label><br>
+        
+        <label><input type="checkbox" name="zgoda">Wyrażam zgodę na przetwarzanie moich danych osobowych</label><br>
+
+        <textarea name="text" cols="50" rows="10" placeholder="Wpisz swoją wiadomość"></textarea><br>
+
+        <input type="submit" value="Wyślij wiadomość">
+    </form>
+</body>
+</html>
